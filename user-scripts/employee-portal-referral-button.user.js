@@ -29,7 +29,7 @@ async function addReferralButton() {
   const actionsElement = await document.querySelector(Actions.ELEMENT);
 
   // Get the existing button
-  const buttonElement = await document.querySelector(Button.Actions);
+  const buttonElement = await document.querySelector(Button.ELEMENT);
 
   // Clone the existing button
   const newButton = buttonElement.cloneNode(true);
