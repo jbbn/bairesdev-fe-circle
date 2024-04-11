@@ -8,6 +8,7 @@
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=bairesdev.com
 // @require      https://code.jquery.com/jquery-3.6.0.min.js
 // @require      https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js
+// @require      https://cdnjs.cloudflare.com/ajax/libs/lodash-fp/0.10.4/lodash-fp.min.js
 // @require      https://raw.githubusercontent.com/jbbn/bairesdev-fe-circle/master/user-scripts/util/waitForElem.js
 // @grant        unsafeWindow
 // @grant        GM_xmlhttpRequest
