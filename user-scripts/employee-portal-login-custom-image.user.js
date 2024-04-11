@@ -12,14 +12,15 @@
 
 const profileImageUrl = localStorage.getItem("BD_EP_PROFILE_IMAGE_URL");
 
-if (profileImageUrl) {
-  const imageSelector = 'body > bdv-root > bdv-login > div > div.right-content > div > div > img'
-
-  async function custom() {
+async function mount() {
+  if (profileImageUrl) {
+    const imageSelector = 'body > bdv-root > bdv-login > div > div.right-content > div > div > img'
     const imageElement = await UserScript.waitForElem(imageSelector)
     imageElement.src = profileImageUrl
     imageElement.style.width = 'auto'
+  } else {
+    console.debug('bd:employee-portal:login-custom-image','No custom image defined. (localStorage: BD_EP_PROFILE_IMAGE_URL)')
   }
-
-  window.addEventListener('load', custom, false);
 }
+
+window.addEventListener('load', mount, false);
