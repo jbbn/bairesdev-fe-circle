@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         BD - Employee Portal - Time Tracker: Referral button
-// @namespace    https://www.bairesdev.com/
+// @namespace    https://github.com/jbbn/bairesdev-fe-circle/tree/master/user-scripts
 // @version      2024-04-10
 // @description  User script for adding a Referral button to the header - for convenience.
 // @author       https://github.com/jbbn

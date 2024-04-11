@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         BD - Employee Portal - Time Table: Zebra striping
-// @namespace    https://www.bairesdev.com/
+// @namespace    https://github.com/jbbn/bairesdev-fe-circle/tree/master/user-scripts
 // @version      2024-04-10
 // @description  Smart Zebra striping - highlight Odd dates
 // @author       https://github.com/jbbn
